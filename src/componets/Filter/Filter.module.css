@@ -1,0 +1,11 @@
+.phone_filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone_filterInp {
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+}

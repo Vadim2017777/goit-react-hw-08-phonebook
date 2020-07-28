@@ -1,0 +1,21 @@
+.list_PhoneLs {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+}
+
+.buttonPhoneLs {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background-color: #3c6a77;
+  border: 1px solid #3c6a77;
+  transition: all 0.5s ease-out;
+}
+
+.buttonPhoneLs:hover {
+  background-color: #9ab7ba;
+}
