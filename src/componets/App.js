@@ -30,21 +30,14 @@ class App extends Component {
 
   render() {
     const showContacts = this.props.contacts.length;
-    const { error, overlap } = this.props;
+    const { error } = this.props;
 
     return (
       <>
         <Header />
         {error && <h1>Sorry:{error.message}</h1>}
         <Body>
-          <CSSTransition
-            in={overlap}
-            timeout={200}
-            classNames={NotificationtTansition}
-            unmountOnExit
-          >
-            <Notification />
-          </CSSTransition>
+          <Notification />
           <ContactListForm />
           {showContacts > 1 && <Filter />}
           <ContactList />
