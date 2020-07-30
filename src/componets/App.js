@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { CSSTransition } from 'react-transition-group';
 
 import { onFetchContacts } from '../redux/Contact/contactsOperations';
 import { overlapToggle } from '../redux/Contact/contactActions';
+
 import contactsSelectors from '../redux/Contact/contactsSelectors';
-import NotificationtTansition from './Natification/transitions/NatificationTransition.module.css';
 
 import Header from './Header/Header';
 import Body from './Body/Body';
